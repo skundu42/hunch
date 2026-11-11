@@ -2,8 +2,6 @@
 
 A ~5.4M-parameter Transformer encoder that reads a state once and answers typed
 questions (Choice, Score, Noul) with a probability for every candidate answer.
-Built for the Forward Pass video "I Built a Decision Model Like Jev From Scratch".
-
 ```bash
 pip install -r requirements.txt
 python data.py            # data/{train,val,test}.jsonl from CLINC150, SST-5, MultiNLI
